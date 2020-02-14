@@ -10,8 +10,6 @@
 #include "base.h"
 #include "main.command.h"
 
-// Translation by Creeper19472
-
 const char meta[] __attribute__((used, section("meta"))) =
     "name:trans\n"
     "version:20200121\n"
@@ -34,7 +32,7 @@ void TransferCommand::invoke(mandatory<std::string> server, mandatory<int> port)
     sp->sendNetworkPacket(trpk);
     getOutput().success();
   } else {
-    getOutput().error("操你妈！你以为你是谁啊");
+    getOutput().error("fucku");
   }
 }
 

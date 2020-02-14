@@ -2,8 +2,6 @@
 //#include <MC.h>
 #include "base.h"
 
-// Translation by Creeper19472
-
 extern "C" {
 BDL_EXPORT void mod_init(std::list<string> &modlist);
 }
